@@ -62,6 +62,7 @@ function query() {
             return locs
         })
 }
+//test
 
 function getById(locId) {
     return storageService.get(DB_KEY, locId)
